@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Hours played:</strong>
+  <%= @gamer.hours_played %>
+</p>
+
+<p>
+  <strong>Favourite game:</strong>
+  <%= @gamer.favourite_game %>
+</p>
+
+<p>
+  <strong>Join  age:</strong>
+  <%= @gamer.join__age %>
+</p>
+
+<%= link_to 'Edit', edit_gamer_path(@gamer) %> |
+<%= link_to 'Back', gamers_path %>

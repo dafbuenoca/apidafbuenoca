@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hours_played: 1
+  favourite_game: MyString
+  join__age: 2017-09-02
+
+two:
+  hours_played: 1
+  favourite_game: MyString
+  join__age: 2017-09-02
